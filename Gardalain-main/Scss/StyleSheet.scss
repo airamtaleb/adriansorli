@@ -1,0 +1,54 @@
+﻿@import "Variables";
+
+
+.content {
+    background-color: #b9935a;
+    //background-color: #5ab972;
+}
+
+
+p , a{
+
+    //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+}
+
+.logo-big {
+    display: block;
+    max-width: 803px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+//.carousel, .carousel-inner > .carousel-item > img {
+ //   max-height: 700px;
+  //}
+
+  .imgnormalizada img {
+    width: auto;
+    max-height: 600px;
+    margin: auto;
+  }
+
+@media screen and (min-width: 980px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex: 1;
+    }
+}
+
+
+
